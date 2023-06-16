@@ -12,5 +12,5 @@ for (p = &a[0]; *p != '\0'; p++)
 {
 putchar(*p);
 }
-    return (1);
+return (1);
 }
