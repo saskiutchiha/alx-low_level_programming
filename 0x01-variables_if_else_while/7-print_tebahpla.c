@@ -1,0 +1,18 @@
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+char a = 'z', b;
+int i;
+for (i = 0; i <= 25; i++)
+{
+b = a - i;
+putchar(b);
+}
+putchar('\n');
+return (0);
+}
