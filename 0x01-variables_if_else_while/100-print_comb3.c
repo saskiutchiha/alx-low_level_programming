@@ -15,13 +15,14 @@ if (j > i)
 {
 putchar(i + 48);
 putchar(j + 48);
-if (i != 8) 
+if (i != 8)
 {
-putchar(',');  
+putchar(',');
 putchar('\t');
 }
 }
 }
 }
+putchar('\n');
 return (0);
 }
