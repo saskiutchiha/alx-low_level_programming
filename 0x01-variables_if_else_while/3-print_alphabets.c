@@ -6,8 +6,14 @@
  */
 int main(void)
 {
-char a = 'A', b;
+char a = 'a', b;
 int i;
+for (i = 0; i <= 25; i++)
+{
+b = a + i;
+putchar(b);
+}
+a = 'A'; 
 for (i = 0; i <= 25; i++)
 {
 b = a + i;
