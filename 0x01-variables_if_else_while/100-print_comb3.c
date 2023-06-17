@@ -15,7 +15,8 @@ if (j > i)
 {
 putchar(i+48);
 putchar(j+48);
-putchar(",\t");
+putchar(",");
+putchar("\t");
 }
 }
 }
