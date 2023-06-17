@@ -13,7 +13,7 @@ for (i = 0; i <= 25; i++)
 b = a + i;
 putchar(b);
 }
-a = 'A'; 
+a = 'A';
 for (i = 0; i <= 25; i++)
 {
 b = a + i;
