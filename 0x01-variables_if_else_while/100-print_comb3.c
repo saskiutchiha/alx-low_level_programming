@@ -18,7 +18,7 @@ putchar(j + 48);
 if (i != 8)
 {
 putchar(',');
-putchar('\t');
+putchar(' ');
 }
 }
 }
