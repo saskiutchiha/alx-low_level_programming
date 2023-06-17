@@ -14,7 +14,7 @@ for (j = 0; j <= 9; j++)
 if (j > i)
 {
 putchar(i+48);
-putchar(j+48;
+putchar(j+48);
 putchar(",\t");
 }
 }
