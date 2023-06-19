@@ -6,13 +6,11 @@
  */
 int main(void)
 {
-char a = 'a', b;
 int i;
-for (i = 0; i <= 25; i++)
+for (i = 0; i < 10; i++)
 {
-b = a + i;
-putchar(b);
+printf("%d", i);
 }
-putchar('\n');
+printf("\n");
 return (0);
 }

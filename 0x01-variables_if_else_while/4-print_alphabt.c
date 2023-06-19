@@ -11,7 +11,10 @@ int i;
 for (i = 0; i <= 25; i++)
 {
 b = a + i;
+if (b != 'e' && b != 'q')
+{
 putchar(b);
+}
 }
 putchar('\n');
 return (0);
