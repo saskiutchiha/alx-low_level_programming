@@ -13,9 +13,9 @@ printf(",  ");
 }
 else 
 {
-printf(" ");
-s = s + i;
+printf(", ");
 }
+s = s + i;
 }
 printf("%d", s);
 putchar('$');
