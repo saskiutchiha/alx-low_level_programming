@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 *   _islower- Entry point
-* @n: Number to pass to _islower function
+* @c: Number to pass to _islower function
 * Return: integer (Success)
 */
 int _islower(int c)
