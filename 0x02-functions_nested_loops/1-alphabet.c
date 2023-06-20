@@ -7,4 +7,3 @@ putchar(i);
 }
 putchar('\n');
 }
-}
