@@ -1,4 +1,4 @@
-void print_alphabet(void);
+#include <stdio.h>
 print_alphabet(void)
 {
 int i;
@@ -8,7 +8,6 @@ putchar(i);
 }
 putchar('\n');
 }
-void print_alphabet_x10(void);
 void print_alphabet_x10(void)
 {
 int j, i;
@@ -21,4 +20,4 @@ putchar(i);
 putchar('\n');
 }
 }
-}
+
