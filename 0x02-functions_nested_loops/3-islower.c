@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+*   _islower- Entry point
+*
+* Return: integer (Success)
+*/
 int _islower(int c)
 {
 if (c > 96 && c < 123)
