@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+*  jack_bauer- Entry point
+*
+* Return: Always void (Success)
+*/
 void jack_bauer(void)
 {
 int a = 0, b = 0, c, d;
