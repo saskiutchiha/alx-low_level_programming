@@ -8,7 +8,7 @@ c = a / 10;
 d = a % 10;
 putchar(c + 48);
 putchar(d + 48);
-putchar(':')
+putchar(':');
 c = b / 10;
 d = b % 10;
 putchar(c + 48);
