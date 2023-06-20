@@ -14,10 +14,10 @@ d = b % 10;
 putchar(c + 48);
 putchar(d + 48);
 putchar('\n');
-b++
+b++;
 if (b == 60)
 {
 b = 0;
-a++
+a++;
 }
 }
