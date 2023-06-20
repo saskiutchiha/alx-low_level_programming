@@ -10,7 +10,7 @@ if (a <= 0)
 {
 return (-a);
 }
-else 
+else
 {
 return (a);
 }
