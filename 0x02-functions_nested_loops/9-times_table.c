@@ -7,7 +7,7 @@ for (i = 0; i <= 9;i++)
 for (j = 0;j <= 8; j++)
 {
 printf("%d", s);
-if (s < 10)
+if ((s + i) <= 10)
 {
 printf(",  ");
 }
@@ -18,7 +18,6 @@ printf(", ");
 s = s + i;
 }
 printf("%d", s);
-putchar('$');
 s = 0;
 putchar('\n');
 }
