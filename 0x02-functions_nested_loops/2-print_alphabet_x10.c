@@ -11,4 +11,3 @@ putchar(i);
 putchar('\n');
 }
 }
-}
