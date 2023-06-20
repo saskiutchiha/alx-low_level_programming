@@ -2,16 +2,16 @@
 void times_table(void)
 {
 int i, j, s = 0;
-for (i = 0; i <= 9;i++)
+for (i = 0; i <= 9; i++)
 {
-for (j = 0;j <= 8; j++)
+for (j = 0; j <= 8; j++)
 {
 printf("%d", s);
 if ((s + i) < 10)
 {
 printf(",  ");
 }
-else 
+else
 {
 printf(", ");
 }
