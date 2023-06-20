@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 *   _islower- Entry point
-* parametre integer c
+* This function takes an integer parameter names c
 * Return: integer (Success)
 */
 int _islower(int c)
