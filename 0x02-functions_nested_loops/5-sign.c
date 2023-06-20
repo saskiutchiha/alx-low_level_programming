@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+*   print_sign- Entry point
+*
+* Return: integer (Success)
+*/
 int print_sign(int n)
 {
 if (n > 0)
