@@ -1,7 +1,11 @@
 #include <stdio.h>
-/* i am a fuction print_alphabet 
-* i print alphabets
-*/
+/**
+ * @brief Prints the English alphabet in lowercase.
+ * This function prints the English alphabet in lowercase characters from 'a' to 'z',
+ * each letter on a separate line.
+ *
+ * @return void
+ */
 void print_alphabet(void)
 {
 int i;
