@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+*  times_table- Entry point
+*
+* Return: Always void (Success)
+*/
 void times_table(void)
 {
 int i, j, s = 0;
