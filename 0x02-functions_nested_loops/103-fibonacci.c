@@ -7,7 +7,7 @@
 int main(void)
 {
 long int a = 1, b = 2, s = 0, sum;
-sum = a + b;
+sum =  b;
 while ( s < 4000000)
 {
 if (s % 2 == 0)
