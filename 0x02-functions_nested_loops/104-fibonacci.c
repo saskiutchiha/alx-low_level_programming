@@ -10,7 +10,7 @@ long  int a = 1, b = 2, s, i;
 printf("%ld", a);
 printf(", ");
 printf("%ld", b);
-for (i = 1 ; i <= 98 ; i++)
+for (i = 1 ; i <= 96 ; i++)
 {
 printf(", ");
 s = a + b;
