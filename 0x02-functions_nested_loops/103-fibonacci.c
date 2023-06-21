@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-long int a = 1, b = 2, s = 0, sum;
+long long int a = 1, b = 2, s = 0, sum;
 sum = a + b;
 while ( s < 4000000)
 {
@@ -15,7 +15,7 @@ s = a + b;
 a = b;
 b = s;
 }
-printf("%ld",sum);
+printf("%lld",sum);
 putchar('\n');
 return (0);
 }
