@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
-*  times_table- Entry point
-* @n: Number to pass to times_table function
+*  print_times_table- Entry point
+* @n: Number to pass to print_times_table function
 * Return: void (Success)
 */
-void times_table(int n)
+void print_times_table(int n)
 {
 int i, j, s = 0;
 for (i = 0; i <= n; i++)
