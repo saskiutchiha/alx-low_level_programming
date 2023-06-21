@@ -33,4 +33,8 @@ s = 0;
 putchar('\n');
 }
 }
+else 
+{
+printf("0");
+}
 }
