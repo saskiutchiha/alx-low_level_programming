@@ -15,4 +15,5 @@ s = s + i;
 }
 }
 printf("%d",s);
+printf('\n');
 }
