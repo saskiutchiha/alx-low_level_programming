@@ -23,6 +23,6 @@ printf("%d", i);
 printf(", ");
 }
 }
-printf("%d", n);
+printf("98");
 printf("\n");  
 }
