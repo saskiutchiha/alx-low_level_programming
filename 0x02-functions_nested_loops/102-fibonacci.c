@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-int a = 1; b= 2 ,s, i;
+int a = 1, b = 2, s, i;
 printf("%d", a);
 printf(", ");
 printf("%d", b);
