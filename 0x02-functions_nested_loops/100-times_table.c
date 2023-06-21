@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
 *  times_table- Entry point
-*
-* Return: Always void (Success)
+* @n: Number to pass to times_table function
+* Return: void (Success)
 */
 void times_table(int n)
 {
