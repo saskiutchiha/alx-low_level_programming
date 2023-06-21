@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-long long int a = 1, b = 2, s = 0, sum;
+long int a = 1, b = 2, s = 0, sum;
 sum = a + b;
-while ( s < 4000000)
+while ( s < 3500000)
 {
 sum = sum + s;
 s = a + b;
 a = b;
 b = s;
 }
-printf("%lld",sum);
+printf("%ld",sum);
 putchar('\n');
 return (0);
 }
