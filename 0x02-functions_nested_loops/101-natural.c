@@ -14,7 +14,7 @@ if (i % 3 == 0 || i % 5 == 0)
 s = s + i;
 }
 }
-printf("%d",s);
+printf("%d", s);
 putchar('\n');
 return (0);
 }
