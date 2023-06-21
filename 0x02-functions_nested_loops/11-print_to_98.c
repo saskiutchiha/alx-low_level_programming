@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*  print_to_98 Entry point
+* print_to_98 Entry point
 * @n: Number to pass to print_to_98 function
 * Return: void (Success)
 */
