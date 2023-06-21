@@ -8,7 +8,7 @@ int main(void)
 {
 long int a = 1, b = 2, s = 0, sum;
 sum =  b;
-while ( s < 4000000)
+while (s < 4000000)
 {
 if (s % 2 == 0)
 {
@@ -18,7 +18,7 @@ s = a + b;
 a = b;
 b = s;
 }
-printf("%ld",sum);
+printf("%ld", sum);
 putchar('\n');
 return (0);
 }
