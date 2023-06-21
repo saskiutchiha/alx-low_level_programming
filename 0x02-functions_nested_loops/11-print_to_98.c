@@ -1,12 +1,5 @@
 #include <stdio.h>
-/**
- * 11-print_to_98.c
- *
- * This file contains a program that prints all the numbers from a given
- * integer up to 98, inclusive.
- */
-/**
-* print_to_98 Entry point
+/* print_to_98 Entry point
 
 * @n: Number to pass to print_to_98 function
 * Return: void (Success)
