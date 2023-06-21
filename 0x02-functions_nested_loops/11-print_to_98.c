@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-*  add- Entry point
+*  print_to_98 Entry point
 * @n: Number to pass to print_to_98 function
-* Return: integer (Success)
+* Return: void (Success)
 */
 void print_to_98(int n)
 {
@@ -24,5 +24,5 @@ printf(", ");
 }
 }
 printf("98");
-printf("\n");  
+printf("\n");
 }
