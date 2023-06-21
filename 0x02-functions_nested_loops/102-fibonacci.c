@@ -17,6 +17,6 @@ s = a + b;
 printf("%d", s);
 a = b;
 b = s;
-return (0);
 }
+return (0);
 }
