@@ -18,6 +18,6 @@ printf("%ld", s);
 a = b;
 b = s;
 }
-printf('\n');
+putchar('\n');
 return (0);
 }
