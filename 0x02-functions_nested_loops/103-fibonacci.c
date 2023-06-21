@@ -8,9 +8,12 @@ int main(void)
 {
 long int a = 1, b = 2, s = 0, sum;
 sum = a + b;
-while ( s < 2500000)
+while ( s < 4000000)
+{
+if (s % 2 == 0)
 {
 sum = sum + s;
+}
 s = a + b;
 a = b;
 b = s;
