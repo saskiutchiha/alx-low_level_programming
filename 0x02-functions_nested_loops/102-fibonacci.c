@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-long long int a = 1, b = 2, s, i;
-printf("%d", a);
+long  int a = 1, b = 2, s, i;
+printf("%ld", a);
 printf(", ");
-printf("%d", b);
+printf("%ld", b);
 for (i=1;i <= 48;i++)
 {
 printf(", ");
 s = a + b;
-printf("%d", s);
+printf("%ld", s);
 a = b;
 b = s;
 }
