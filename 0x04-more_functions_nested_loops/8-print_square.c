@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+*  print_square- Entry point
+* @size: Number to pass to print_square function
+* Return: void (Success)
+*/
 void print_square(int size)
 {
 int i, j;
