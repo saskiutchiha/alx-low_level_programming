@@ -1,4 +1,8 @@
 #include "main.h"
+/**
+* more_numbers- Entry point
+* Return: void (Success)
+*/
 void more_numbers(void)
 {
 i, a, b, j;
