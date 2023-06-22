@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+*   _isdigit- Entry point
+* @c: Number to pass to _isdigit function
+* Return: integer (Success)
+*/
 int _isdigit(int c)
 {
 if (c < 57 && c > 47)
