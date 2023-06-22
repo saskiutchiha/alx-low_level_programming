@@ -13,7 +13,7 @@ for (i = 0; i < j; i++)
 {
 _putchar(' ');
 }
-_putchar('\\')
-_putchar('\n')
+_putchar('\\');
+_putchar('\n');
 }
 }
