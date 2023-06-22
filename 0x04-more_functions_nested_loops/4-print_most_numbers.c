@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*   print_most_numbers- Entry point
+* print_most_numbers- Entry point
 * Return: void (Success)
 */
 void print_most_numbers(void)
