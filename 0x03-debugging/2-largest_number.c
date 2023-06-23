@@ -17,12 +17,12 @@ if (a >= c)
 {
 largest = a;
 }
-else 
+else
 {
 largest = c;
 }
 }
-else  
+else
 {
 if (b >= c)
 {
