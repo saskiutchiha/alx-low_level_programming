@@ -21,11 +21,12 @@ if (i % 5 == 0 && i % 3 == 0)
 {
 printf("FizzBuzz");
 }
-else
+if (i % 5 != 0 && i % 3 != 0)
 {
 printf("%d", i);
 }
 printf(" ");
 }
+printf("\n");
 return (0);
 }
