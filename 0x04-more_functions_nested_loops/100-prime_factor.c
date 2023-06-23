@@ -23,19 +23,19 @@ k=0;
 }
 if (a == 1)
 {
-printf("and %ld", num);
+printf("%ld", num);
 return ('0');
 }
 else
 {
-printf("%ld, ", j);
+printf("%ld", j);
 return nn(a);
 }
 }
 int main(void)
 {
-printf("the prime factore of 612852475143 are ");
-nn( 612852475143);
+/*printf("the prime factore of 612852475143 are ");*/
+nn(612852475143);
 printf("\n");
 return 0;
 }
