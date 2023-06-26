@@ -7,7 +7,7 @@
 int _strlen(char *s)
 {
 int d = 0;
-for (;*s<127 && *s > 0;s++)
+for (; *s < 127 && *s > 0; s++)
 {
 d++;
 }
