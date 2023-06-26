@@ -1,13 +1,12 @@
 #include "main.h"
 void print_rev(char *s)
 {
-char *str = s;
-for (;str > 0 && str < 127 ;str++)
+for (;*s > 0 && *s < 127 ;s++)
 {
 }
-str--;
-for (;str > 0 && str < 127 ;str--)
+s--;
+for (;*s > 0 && *s < 127 ;--)
 {
-_putchar(*str);
+_putchar(*s);
 }
 }
