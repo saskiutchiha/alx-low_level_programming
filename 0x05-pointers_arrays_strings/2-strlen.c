@@ -1,6 +1,6 @@
 #include <stddef.h>
 /**
-*  print_line- Entry point
+*   _strlen- Entry point
 * @s: pointer to pass to _strlen function
 * Return: integer (Success)
 */
