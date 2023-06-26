@@ -1,3 +1,4 @@
+#include <stddef.h>
 /**
 *  print_line- Entry point
 * @s: pointer to pass to _strlen function
