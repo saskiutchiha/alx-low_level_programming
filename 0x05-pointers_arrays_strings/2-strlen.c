@@ -1,7 +1,7 @@
 /**
 *  print_line- Entry point
 * @s: pointer to pass to _strlen function
-* Return: void (Success)
+* Return: integer (Success)
 */
 int _strlen(char *s)
 {
