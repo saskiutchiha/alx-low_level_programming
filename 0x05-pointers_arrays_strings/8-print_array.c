@@ -9,11 +9,11 @@ void print_array(int *a, int n)
 {
 if (n == 1)
 {
-_putchar(*a);
+_putchar(*a + 48);
 }
 else
 {
-_putchar(*a);
+_putchar(*a + 48);
 _putchar(',');
 _putchar(' ');
 return print_array(a + 1, n - 1);
