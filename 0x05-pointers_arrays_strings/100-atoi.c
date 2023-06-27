@@ -2,6 +2,8 @@
 int _atoi(char *s)
 {
 int i=0 ,sum=0,a=0;
+char *t;
+  t=s;
 while(*s < 47 || *s > 58)
   {
     if (*s == '-')
@@ -10,7 +12,7 @@ while(*s < 47 || *s > 58)
     }
     s++;
   }
-
+s=t;
 for (;*s > 0 && *s < 127; s++)
 {
 if (*s > 47 && *s < 58)
