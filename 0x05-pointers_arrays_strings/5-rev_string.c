@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-*   print_rev- Entry point
-* @s: pointer to pass to print_rev function
+*   rev_string- Entry point
+* @s: pointer to pass to rev_string function
 * Return: void (Success)
 */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 char *p = s, a;
 for (; *s > 0 && *s < 12; s++)
