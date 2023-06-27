@@ -9,19 +9,21 @@
 */
 void print_array(int *a, int n)
 {
+int i ;
+i = sizeof(a) / sizeof(*a);
 if (n < 0)
 {
-n = strlen(a) + n + 1;
+n = i + n + 1;
 }
-if (n == 1)
+if (n > 0)
 {
-printf("%d",*a);
-}
-else
+for (; a < a + n - 1; a++)
 {
 printf("%d", *a);
 putchar(',');
 putchar(' ');
-print_array(a + 1, n - 1);
 }
+printf("%d", *a);
+}
+putchar('\n')
 }
