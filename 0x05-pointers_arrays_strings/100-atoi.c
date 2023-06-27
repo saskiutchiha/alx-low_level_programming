@@ -15,9 +15,9 @@ i = *s - 48;
 sum = sum * 10 + i ;
 }
 }
-if (i==0)
+if (sum==0)
 {
-return i;
+return sum;
 }
 else
 {
