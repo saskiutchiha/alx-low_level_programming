@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 *   print_array- Entry point
 * @a: pointer to pass to _print_array function
