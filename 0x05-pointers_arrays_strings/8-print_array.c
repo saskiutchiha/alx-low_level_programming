@@ -25,5 +25,5 @@ putchar(' ');
 }
 printf("%d", *a);
 }
-putchar('\n')
+putchar('\n');
 }
