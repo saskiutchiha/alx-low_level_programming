@@ -14,9 +14,9 @@ printf("%d",*a);
 }
 else
 {
-printf("%d",*a);
-_putchar(',');
-_putchar(' ');
+printf("%d", *a);
+printf(',');
+printf(' ');
 print_array(a + 1, n - 1);
 }
 }
