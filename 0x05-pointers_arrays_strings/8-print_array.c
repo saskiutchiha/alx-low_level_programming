@@ -6,28 +6,16 @@
 * Return: void (Success)
 */
 void print_array(int *a, int n)
-int x ,y,z;
-{
-if (*a < 0)
-{
-_putchar('-')
-x = -*a;
-}
-else 
-{
-x = *a;
 }
 if (n == 1)
 {
-while (x !=0)
-{
-y = x % 10;
-  
-_putchar(*a + 48);
+printf("%d",*a);
 }
 else
 {
-_putchar(*a + 48);
+printf("%d",*a);
 _putchar(',');
 _putchar(' ');
 print_array(a + 1, n - 1);
+}
+}
