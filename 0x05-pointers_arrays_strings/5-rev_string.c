@@ -7,7 +7,7 @@
 void rev_string(char *s)
 {
 char *p = s, a;
-for (; *s > 0 && *s < 12; s++)
+for (; *s > 0 && *s < 127; s++)
 {
 }
 s--;
