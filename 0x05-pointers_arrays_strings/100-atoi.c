@@ -2,7 +2,7 @@
 int _atoi(char *s)
 {
 int i=0 ,sum=0,a=0;
-while(*s < 47 && *s > 58)
+while(*s < 47 || *s > 58)
   {
     if (*s == '-')
     {
