@@ -16,4 +16,4 @@ else
 _putchar(*a);
 _putchar(',');
 _putchar(' ');
-return (print_array(a+1, n-1));
+return print_array(a + 1, n - 1);
