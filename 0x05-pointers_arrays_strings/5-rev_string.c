@@ -4,8 +4,7 @@
 * @s: pointer to pass to print_rev function
 * Return: void (Success)
 */
-
-
+void print_rev(char *s)
 {
 char *p = s, a;
 for (; *s > 0 && *s < 12; s++)
