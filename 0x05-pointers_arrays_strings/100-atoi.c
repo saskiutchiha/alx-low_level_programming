@@ -1,7 +1,7 @@
 #include <stdio.h>
 int _atoi(char *s)
 {
-long int i ,sum=0,a=0;
+int i ,sum=0,a=0;
 for (;*s > 0 && *s < 127; s++)
 {
 if (*s == '-')
