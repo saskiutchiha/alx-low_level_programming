@@ -2,7 +2,7 @@
 int _atoi(char *s)
 {
 int i=0 ,sum=0,a=0;
-char *t;
+
 for (;*s > 0 && *s < 127; s++)
 {
 if (*s >= 48 && *s < 58)
