@@ -9,7 +9,7 @@ if (*s == '-')
 a++;
 }
 i = *s - 48;
-sum = sum * 10 + i 
+sum = sum * 10 + i ;
 }
 if (a == 0)
 {
