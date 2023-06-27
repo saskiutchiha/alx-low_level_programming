@@ -1,7 +1,7 @@
 #include <stdio.h>
 int _atoi(char *s)
-int i ,sum=0,a=0;
 {
+long int i ,sum=0,a=0;
 for (;*s > 0 && *s < 127; s++)
 {
 if (*s == '-')
@@ -13,10 +13,10 @@ sum = sum * 10 + i ;
 }
 if (a == 0)
 {
-printf("%d",sum);
+return (sum);
 }
 else 
 {
-printf("%d",-sum);
+return (-sum);
 }
 }
