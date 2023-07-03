@@ -9,5 +9,5 @@ return (s);
 }
 s++;
 }
-return NULL;
+return (NULL);
 }
