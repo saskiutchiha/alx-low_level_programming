@@ -3,18 +3,16 @@ char *_strpbrk(char *s, char *accept)
 {
 char *d;
 d = accept;
-while (*s < 128 && *s >= 0)
+for (;*s < 127 && *s >0;s++)
 {
-while (*accept < 128 && *accept >= 0)
+for (;*accept < 127 && *accept > 0;accept++)
 {
 if (*s == *accept)
 {
 return (s);
 }
-accept++;
 }
 accept = t;
-s++;
 }
 return (NULL);
 }
