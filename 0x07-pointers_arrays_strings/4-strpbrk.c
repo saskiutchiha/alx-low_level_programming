@@ -12,7 +12,7 @@ if (*s == *accept)
 return (s);
 }
 }
-accept = t;
+accept = d;
 }
 return (NULL);
 }
