@@ -14,17 +14,18 @@ if (*haystack == *needle)
 {
 for (;*needle < 127 && *needle > 0;needle++)
 {
-if(*(needle+i) != *(haystack+i))
+if(*needle != *(haystack+i))
 {
 break;
 }
 i++;
 }
-if (i == a-1)
+if (i == a)
 {
 return (d);
 }
 i=0;
+needle = d;
 }
 }
 return NULL;
