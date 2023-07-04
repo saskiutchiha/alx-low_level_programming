@@ -1,4 +1,3 @@
-#include <string.h>
 /**
 *  _strchr- Entry point
 * @haystack: pointer to pass to _strst function
@@ -20,7 +19,7 @@ if (*haystack == *needle)
 {
 for (; *needle < 127 && *needle > 0; needle++)
 {
-if(*needle != *(haystack + i))
+if (*needle != *(haystack + i))
 {
 break;
 }
