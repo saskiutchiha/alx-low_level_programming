@@ -3,9 +3,9 @@ char *_strstr(char *haystack, char *needle)
 {
 int i = 0;
 char *d;
-int a = 0;
+int a;
 d = needle;
-for (; *(needle + a) > 0 && *(needle + a) < 127; a++)
+for (a = 0; *(needle + a) > 0 && *(needle + a) < 127; a++)
 {
 }
 for (; *haystack < 127 && *haystack > 0; haystack++)
