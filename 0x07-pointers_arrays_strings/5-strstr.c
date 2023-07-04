@@ -3,8 +3,8 @@ char *_strstr(char *haystack, char *needle)
 {
 int i=0;
 char *d;
-d = needle;
 int a =0;
+d = needle;
 for (;*(needle+a) > 0 && *(needle+a)<127;a++)
   {
   }
