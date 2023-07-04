@@ -1,9 +1,4 @@
-/**
-*  _strchr- Entry point
-* @haystack: pointer to pass to _strst function
-* @needle: pointer to pass to _strst function
-* Return: char (Success)
-*/
+
 char *_strstr(char *haystack, char *needle)
 {
 int i = 0;
