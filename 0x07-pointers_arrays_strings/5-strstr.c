@@ -4,7 +4,7 @@ char *_strstr(char *haystack, char *needle)
 int i=0;
 char *d;
 d = needle;
-for (;*haystack < 127 && *haystack > 0 ;haystac++)
+for (;*haystack < 127 && *haystack > 0 ;haystack++)
 {
 if (*haystack == *needle)
 {
@@ -20,7 +20,7 @@ if (i == strlen(needle)-1)
 {
 return (d);
 }
-i++;
+i=0;
 }
 }
 return NULL;
