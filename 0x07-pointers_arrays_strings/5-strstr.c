@@ -1,3 +1,4 @@
+#include <string.h>
 char *_strstr(char *haystack, char *needle)
 {
 int i=0;
@@ -9,7 +10,7 @@ if (*haystack == *needle)
 {
 for (;*needle < 127 && *needle > 0;needle++)
 {
-if(*needle != *(haystack+i))
+if(*(needle+i) != *(haystack+i))
 {
 break;
 }
