@@ -20,6 +20,7 @@ if (i == strlen(needle)-1)
 {
 return (d);
 }
+i++;
 }
 }
 return NULL;
