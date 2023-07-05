@@ -1,3 +1,8 @@
+/**
+* _strlen_recursion- Entry point
+* @s: Number to pass to  _strlen_recursion function
+* Return: integer (Success)
+*/
 int _strlen_recursion(char *s)
 {
 if (*s < 127 && *s > 0)
