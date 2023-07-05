@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* _puts_recursion Entry point
+* _puts_recursion- Entry point
 * @s: Number to pass to  _puts_recursion function
 * Return: void (Success)
 */
