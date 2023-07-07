@@ -1,4 +1,4 @@
-
+#include <stddef.h>
 char *_strstr(char *haystack, char *needle)
 {
 int i = 0;
