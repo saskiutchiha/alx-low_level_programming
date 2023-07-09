@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-int main (int argc ; char* argv[])
+int main (int argc , char* argv[])
 {
 int sum1=0,j,z=0,y;
 if (argc !=2)
@@ -58,14 +58,8 @@ z++;
 }
 }
 }
+printf("%d\n",z);
 }
-
+}
 return (1);
 }
-
-
-
-
-
-
-
