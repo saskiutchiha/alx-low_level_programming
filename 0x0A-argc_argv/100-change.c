@@ -5,7 +5,7 @@ int main (int argc , char* argv[])
 int sum1=0,j,z=0,y;
 if (argc !=2)
 {
-printf("Error");
+printf("Error\n");
 }
 else
 {
