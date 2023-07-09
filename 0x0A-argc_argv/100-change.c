@@ -26,7 +26,7 @@ for (j = 0; j < y; j++)
 {
 sum1 = sum1 * 10 + argv[1][j] - 48;
 }
-while(sum1 != 0)
+while (sum1 != 0)
 {
 if (sum1 >= 25)
 {
