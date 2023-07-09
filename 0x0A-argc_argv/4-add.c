@@ -31,12 +31,12 @@ break;
 }
 sum2 = sum2 + sum1;
 }
-
-}
 if (z!=1)
 {
 printf("%ld\n",sum2);
 }
+}
+
 return (0);
 }
 
