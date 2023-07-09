@@ -1,31 +1,30 @@
 #include <stdio.h>
 #include <string.h>
-int main (int argc , char* argv[])
+int main (int argc, char* argv[])
 {
-int sum1=0,j,z=0,y;
-if (argc !=2)
+int sum1 = 0, j, z = 0, y;
+if (argc != 2)
 {
 printf("Error\n");
 }
 else
 {
-if (argv[1][0]=='-')
+if (argv[1][0] == '-')
 {
 printf("0\n");
 }
 else
 {
 y = strlen(argv[1]);
-for (j=0;j<y;j++)
+for (j = 0; j < y; j++)
 {
- 
-sum1 = sum1*10 + argv[1][j] - 48;
+sum1 = sum1 * 10 + argv[1][j] - 48;
 }
 while(sum1 != 0)
 {
 if (sum1 >= 25)
 {
- sum1 = sum1 - 25 ;
+sum1 = sum1 - 25;
 z++;
 }
 else
@@ -35,7 +34,7 @@ if (sum1 >= 10)
 sum1 = sum1 - 10;
 z++;
 }
-else 
+else
 {
 if (sum1 >= 5)
 {
@@ -58,7 +57,7 @@ z++;
 }
 }
 }
-printf("%d\n",z);
+printf("%d\n", z);
 }
 }
 return (0);
