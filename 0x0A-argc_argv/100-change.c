@@ -61,5 +61,5 @@ z++;
 printf("%d\n",z);
 }
 }
-return (1);
+return (0);
 }
