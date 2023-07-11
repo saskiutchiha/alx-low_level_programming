@@ -7,7 +7,6 @@ int a,b,i;
 char* q;
 a = strlen(s1) + strlen(s2);
 b = strlen(s1);
-c = strlen(s2);
 q = malloc(a*sizeof(char));
 if(q == NULL)
 {
