@@ -8,7 +8,7 @@ char* q;
 if (s1 == NULL)
 {
   b = 0;
-{
+}
 else
 {
 b = strlen(s1);
