@@ -5,8 +5,23 @@ char *str_concat(char *s1, char *s2)
 {
 int a,b,i;
 char* q;
-a = strlen(s1) + strlen(s2);
+if (s1 == NULL)
+{
+  b = 0;
+{
+else
+{
 b = strlen(s1);
+}
+if (s2 == NULL)
+{
+c =o;
+}
+else
+{
+  c = strlen(s2);
+}
+a = c + b;
 q = malloc(a*sizeof(char));
 if(q == NULL)
 {
