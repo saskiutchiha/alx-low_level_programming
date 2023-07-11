@@ -15,7 +15,7 @@ b = strlen(s1);
 }
 if (s2 == NULL)
 {
-c =o;
+c =0;
 }
 else
 {
