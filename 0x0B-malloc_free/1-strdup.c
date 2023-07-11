@@ -4,13 +4,13 @@
 char *_strdup(char *str)
 {
 char* q;
-int i;
+int i,d=strlen(str);
 q = malloc(strlen(str)*sizeof(char));
 if (q == NULL)
 {
 return NULL;
 }
-for (i=0;i<strlen(str);i++)
+for (i=0;i<d;i++)
 {
 *(q+i) = *(str+i);
 }
