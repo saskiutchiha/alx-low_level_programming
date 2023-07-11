@@ -9,6 +9,7 @@ int i,d;
 if (size == 0)
 {
   return NULL;
+}
 q = malloc(size*sizeof(char));
 for (i=0;i<d;i++)
 {
