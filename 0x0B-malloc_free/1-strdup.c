@@ -7,7 +7,8 @@ char* q;
 int i,d=strlen(str);
   if (str == NULL)
   {
-    return (NULL);
+    q = NULL;
+    return (q);
   }
 q = malloc(strlen(str)*sizeof(char));
 if (q == NULL)
