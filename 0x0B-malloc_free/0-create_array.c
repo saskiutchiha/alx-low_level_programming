@@ -11,6 +11,10 @@ if (size == 0)
   return NULL;
 }
 q = malloc(size*sizeof(char));
+  if (q == NULL)
+  {
+return NULL;
+  }
 for (i=0;i<d;i++)
 {
 *(q +i)= c;
