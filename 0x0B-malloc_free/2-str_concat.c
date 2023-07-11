@@ -23,4 +23,5 @@ else
 *(q+i) = *(s2+i);
 }
 }
+return q;
 }
