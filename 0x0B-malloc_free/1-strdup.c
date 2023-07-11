@@ -5,6 +5,10 @@ char *_strdup(char *str)
 {
 char* q;
 int i,d=strlen(str);
+  if (str == NULL)
+  {
+    return NULL;
+  }
 q = malloc(strlen(str)*sizeof(char));
 if (q == NULL)
 {
