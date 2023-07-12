@@ -6,7 +6,7 @@ char *argstostr(int ac, char **av)
 {
 char* q;
 int i,j,a=0,b;
-if (a== 0 || av == NULL)
+if (ac== 0 || av == NULL)
 {
 return NULL;
 }
