@@ -6,7 +6,7 @@
  *@argv : variable to pass to main function
  * Return: Always 0 (Success)
  */
-int main (int argc , char *argv[])
+int main (int argc, char *argv[])
 {
 long int sum1 = 0, i, j, sum2 = 0, x = 0, y;
 if (argc == 1 || argc == 2)
