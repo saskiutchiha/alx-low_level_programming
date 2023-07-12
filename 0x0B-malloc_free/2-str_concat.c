@@ -29,7 +29,7 @@ c = strlen(s2);
 }
 a = c + b;
 q = malloc(a * sizeof(char));
-if(q == NULL)
+if (q == NULL)
 {
 return (q);
 }
@@ -44,7 +44,7 @@ if (i < b)
 }
 if (s2 != NULL)
 {
-if(i >= b)
+if (i >= b)
 {
 *(q + i) = *(s2 + i - b);
 }
