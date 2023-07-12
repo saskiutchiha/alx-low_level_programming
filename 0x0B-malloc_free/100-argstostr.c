@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 #include <string.h>
-char *argstostr(int ac, char **av);
+char *argstostr(int ac, char **av)
 
 {
 char** q;
