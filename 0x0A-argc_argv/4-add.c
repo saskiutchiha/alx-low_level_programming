@@ -21,7 +21,7 @@ sum1 = 0;
 y = strlen(argv[i]);
 for (j = 0; j < y; j++)
 {
-if(argv[i][j] < 48 || argv[i][j] > 57)
+if (argv[i][j] < 48 || argv[i][j] > 57)
 {
 z = 1;
 printf("Error\n");
