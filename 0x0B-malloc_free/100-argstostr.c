@@ -14,7 +14,7 @@ for(i=0;i<ac;i++)
 {
 b = strlen(av[i]);
 a = a + b+1;
-{
+}
 q = malloc(a * sizeof(char));
 if (q == NULL)
 {
