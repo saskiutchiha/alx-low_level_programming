@@ -20,11 +20,6 @@ if (q == NULL)
 {
 return NULL;
 }
-for (i=0;i<ac;i++)
-{
-b = strlen(av[i]);
-q[i] = malloc((b+1) * sizeof(char));
-}
 b=0;
 for (i=0;i<ac;i++)
 {
