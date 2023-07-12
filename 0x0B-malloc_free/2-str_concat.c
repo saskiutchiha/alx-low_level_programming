@@ -1,13 +1,19 @@
 #include <stdlib.h>
 #include <stddef.h>
 #include <string.h>
+/**
+ * str_concat- Entry point
+ *@s1 : variable to pass to str_concat function
+ *@s2 : variable to pass to str_concat function
+ * Return: char (Success)
+ */
 char *str_concat(char *s1, char *s2)
 {
-int a,b,c,i;
-char* q;
+int a, b, c, i;
+char *q;
 if (s1 == NULL)
 {
-  b = 0;
+b = 0;
 }
 else
 {
@@ -15,34 +21,34 @@ b = strlen(s1);
 }
 if (s2 == NULL)
 {
-c =0;
+c = 0;
 }
 else
 {
-  c = strlen(s2);
+c = strlen(s2);
 }
 a = c + b;
-q = malloc(a*sizeof(char));
+q = malloc(a * sizeof(char));
 if(q == NULL)
 {
-return q;
+return (q);
 }
-for (i=0;i<a;i++)
+for (i = 0; i < a; i++)
 {
 if (s1 != NULL)
 {
-if(i<b)
+if (i < b)
 {
-*(q+i) = *(s1+i);
+*(q + i) = *(s1 + i);
 }
 }
 if (s2 != NULL)
 {
-if(i>=b)
+if(i >= b)
 {
-*(q+i) = *(s2+i-b);
+*(q + i) = *(s2 + i - b);
 }
 }
 }
-return q;
+return (q);
 }
