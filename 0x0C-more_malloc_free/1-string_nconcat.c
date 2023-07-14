@@ -6,7 +6,7 @@ char *q;
 b = strlen(s1);
 c= n;
 d = strlen(s2);
-a = strlen(s1) + c;
+a = b + c;
 if (c > d)
 {
 c = d;
@@ -24,7 +24,7 @@ if(i < b)
 {
 else
 {
-*(q+i) = *(s2 +i-b)
+*(q+i) = *(s2 +i-b);
 }
 }
 return q;
