@@ -5,10 +5,25 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 int a,i,b,c,d;
 char *q;
+if (s1 == NULL)
+{
+        b=0;
+}
+  else
+{
+  b = strlen(s1);
+}
+if(s2 == NULL)
+{
+        d=0;
+}
+  else
+{
+  d = strlen(s2);
+}
 
-b = strlen(s1);
 c= n;
-d = strlen(s2);
+
 a = b + c;
 if (c > d)
 {
