@@ -15,7 +15,7 @@ if (str == NULL)
 q = NULL;
 return (q);
 }
-q = malloc(strlen(str) * sizeof(char));
+q = malloc((strlen(str)+1) * sizeof(char));
 if (q == NULL)
 {
 return (NULL);
@@ -24,5 +24,6 @@ for (i = 0; i < d; i++)
 {
 *(q + i) = *(str + i);
 }
+*(q + i) = '\0';
 return (q);
 }
