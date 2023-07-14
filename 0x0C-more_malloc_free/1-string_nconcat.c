@@ -34,7 +34,7 @@ return (q);
 }
 for (i = 0; i < a - 1; i++)
 {
-if(i < b)
+if (i < b)
 {
 *(q + i) = *(s1 + i);
 }
