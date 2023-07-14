@@ -13,7 +13,7 @@ else
 {
 b = strlen(s1);
 }
-if(s2 == NULL)
+if (s2 == NULL)
 {
 d = 0;
 }
@@ -30,7 +30,7 @@ c = d;
 q = malloc(a * sizeof(char));
 if (q == NULL)
 {
-return q;
+return (q);
 }
 for (i = 0; i < a - 1; i++)
 {
