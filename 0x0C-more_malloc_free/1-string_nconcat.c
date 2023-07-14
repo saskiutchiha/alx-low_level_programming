@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include <stddef.h>
+#include <string.h>
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 int a,i,b,c,d;
