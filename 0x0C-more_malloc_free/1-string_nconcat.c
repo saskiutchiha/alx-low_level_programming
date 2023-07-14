@@ -3,28 +3,26 @@
 #include <string.h>
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-int a,i,b,c,d;
+int a, i, b, c, d;
 char *q;
 if (s1 == NULL)
 {
-        b=0;
+b = 0;
 }
-  else
+else
 {
-  b = strlen(s1);
+b = strlen(s1);
 }
 if(s2 == NULL)
 {
-        d=0;
+d = 0;
 }
-  else
+else
 {
-  d = strlen(s2);
+d = strlen(s2);
 }
-
-c= n;
-
-a = b + c +1;
+c = n;
+a = b + c + 1;
 if (c > d)
 {
 c = d;
@@ -34,17 +32,17 @@ if (q == NULL)
 {
 return q;
 }
-for (i=0;i<a-1;i++)
+for (i = 0; i < a - 1; i++)
 {
 if(i < b)
 {
-*(q+i) = *(s1+i);
+*(q + i) = *(s1 + i);
 }
 else
 {
-*(q+i) = *(s2 +i-b);
+*(q + i) = *(s2 + i - b);
 }
 }
-*(q+i) = '\0';      
-return q;
+*(q + i) = '\0';
+return (q);
 }
