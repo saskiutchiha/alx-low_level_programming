@@ -24,7 +24,7 @@ if(s2 == NULL)
 
 c= n;
 
-a = b + c;
+a = b + c +1;
 if (c > d)
 {
 c = d;
@@ -34,7 +34,7 @@ if (q == NULL)
 {
 return q;
 }
-for (i=0;i<a;i++)
+for (i=0;i<a-1;i++)
 {
 if(i < b)
 {
@@ -45,5 +45,6 @@ else
 *(q+i) = *(s2 +i-b);
 }
 }
+*(q+i) = '\0';      
 return q;
 }
