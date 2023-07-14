@@ -5,5 +5,5 @@ if (b == 0)
 {
 return (NULL);
 }
-return (malloc(b));
+return (malloc(b + 1));
 }
