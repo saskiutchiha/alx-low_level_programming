@@ -4,7 +4,7 @@
 
 int *array_range(int min, int max)
 {
-int *q;
+int *q,i;
 if (min > max)
 {
 return NULL;
