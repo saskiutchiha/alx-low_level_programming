@@ -2,7 +2,7 @@
 #include <string.h>
 int main (int argc, char *argv[])
 {
-long long int a,b,i,j,num1 =0,prd =0,c=1,x;
+long int a,b,i,j,num1 =0,prd =0,c=1,x;
  if (argc != 3 )
 {
  printf("Error\n");
@@ -33,7 +33,7 @@ x = argv[2][i]-48;
 prd = prd+  x* num1*c;
 c = c *10;
 }
- printf("%lld\n", prd);
+ printf("%ld\n", prd);
 }
 
 return 0;
