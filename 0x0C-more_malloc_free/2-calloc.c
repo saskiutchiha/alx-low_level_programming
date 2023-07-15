@@ -3,7 +3,7 @@
 #include <string.h>
 /**
  * _calloc- Entry point
- *@nmemeb : variable to pass to _calloc function
+ *@nmemb : variable to pass to _calloc function
  *@size : variable to pass to _calloc function
  * Return: void (Success)
  */
