@@ -1,18 +1,24 @@
 #include <stdio.h>
 #include <string.h>
+/**
+ * main- Entry point
+ *@argc : variable to pass to main function
+ *@argv : variable to pass to main function
+ * Return: always 0 (Success)
+ */
 int main (int argc, char *argv[])
 {
-long int a,b,i,j,num1 =0,prd =0,c=1,x;
- if (argc != 3 )
+long int a, b, i, j, num1 = 0, prd = 0, c = 1, x;
+if (argc != 3)
 {
- printf("Error\n");
+printf("Error\n");
 }
 else
 {
-for (i=1;i<3;i++)
+for (i = 1; i < 3; i++)
 {
 a = strlen(argv[i]);
-for(j=0;j<a;j++ )
+for(j = 0; j < a; j++)
 {
 if (argv[i][j] < 48 || argv[i][j] > 57)
 {
@@ -23,18 +29,17 @@ return (0);
 }
 a = strlen(argv[1]);
 b = strlen(argv[2]);
-for (i=0; i < a;i++)
+for (i = 0; i < a; i++)
 {
-num1 = num1*10 + argv[1][i]-48;
+num1 = num1 * 10 + argv[1][i] - 48;
 }
-for (i=b-1;i>=0;i--)
+for (i = b - 1; i >= 0; i--)
 {
-x = argv[2][i]-48;
-prd = prd+  x* num1*c;
-c = c *10;
+x = argv[2][i] - 48;
+prd = prd+  x * num1 * c;
+c = c * 10;
 }
- printf("%ld\n", prd);
+printf("%ld\n", prd);
 }
-
-return 0;
+return (0);
 }
