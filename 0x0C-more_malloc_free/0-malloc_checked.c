@@ -1,7 +1,7 @@
 #include <stdlib.h>
 /**
  * malloc_checked- Entry point
- *@b : variable to pass to *malloc_checked function
+ *@b : variable to pass to malloc_checked function
  * Return: void (Success)
  */
 void *malloc_checked(unsigned int b)
