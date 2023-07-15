@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main (int argc, char *argv[])
 {
 long long int a,i,j,num1 =0,prd =0,c=1;
