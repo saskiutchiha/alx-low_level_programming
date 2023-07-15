@@ -1,6 +1,6 @@
 #include <stdlib.h>
 /**
- * create_array- Entry point
+ * malloc_checked- Entry point
  *@b : variable to pass to *malloc_checked function
  * Return: void (Success)
  */
