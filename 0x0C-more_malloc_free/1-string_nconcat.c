@@ -1,10 +1,18 @@
 #include <stdlib.h>
 #include <stddef.h>
 #include <string.h>
+/**
+ * string_nconcat- Entry point
+ *@s1 : variable to pass to string_nconcat function
+ *@s2 : variable to pass to string_nconcat function
+ *@n : variable to pass to string_nconcat function
+ * Return: char (Success)
+ */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 int a, i, b, c, d;
 char *q;
+
 if (s1 == NULL)
 {
 b = 0;
@@ -22,11 +30,12 @@ else
 d = strlen(s2);
 }
 c = n;
-a = b + c + 1;
+
 if (c > d)
 {
 c = d;
 }
+a = b + c + 1;
 q = malloc(a * sizeof(char));
 if (q == NULL)
 {
