@@ -9,7 +9,10 @@ for (i=0;i<a;i++)
 {
 x = va_arg(arg,int);
 printf("%d",x);
+if (separator != NULL)
+{
 printf("%s",separator);
+}
 }
 va_end(arg);
 putchar('\n');
