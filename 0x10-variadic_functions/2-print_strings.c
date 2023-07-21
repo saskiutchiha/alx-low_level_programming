@@ -13,18 +13,18 @@ int a = n, i;
 char *str;
 va_list args;
 va_start(args, n);
-for (i = 0; i < a; i++) 
+for (i = 0; i < a; i++)
 {
 str = va_arg(args, char*);
 if (str != NULL)
 {
 printf("%s", str);
 }
-else 
+else
 {
 printf("(nil)");
 }
-if (separator != NULL && i < a-1)
+if (separator != NULL && i < a - 1)
 {
 printf("%s", separator);
 }
