@@ -24,6 +24,6 @@ if (separator != NULL)
 printf("%s", separator);
 }
 }
-putchar('\n')
+putchar('\n');
     va_end(args);
 }
