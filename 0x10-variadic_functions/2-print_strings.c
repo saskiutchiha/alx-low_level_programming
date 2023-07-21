@@ -17,7 +17,7 @@ char *str;
     }
 else 
 {
-printf("nil");
+printf("(nil)");
 }
 if (separator != NULL)
 {
