@@ -4,24 +4,24 @@
 void print_all(const char * const format, ...) {
 
     
-    int i;
+    int i=0;
     float f;
     char *s,c;
 
     va_list args;
     va_start(args, format);
 
-    while (*format != '\0') {
-        if (*format == 'c') {
+    while (*(format+i) != '\0') {
+        if (*(format+i) == 'c') {
             c = va_arg(args, int); // char is promoted to int when passed through ellipsis
             printf("%c", c);
-        } else if (*format == 'i') {
+        } else if (*(format+i) == 'i') {
             i = va_arg(args, int);
             printf("%d", i);
-        } else if (*format == 'f') {
+        } else if (*(format+i) == 'f') {
             f = va_arg(args, double); // float is promoted to double when passed through ellipsis
             printf("%f", f);
-        } else if (*format == 's') {
+        } else if (*(format+i) == 's') {
             s = va_arg(args, char*);
             if (s != NULL) {
                 printf("%s", s);
@@ -29,7 +29,7 @@ void print_all(const char * const format, ...) {
                 printf("(nil)");
             }
         }
-        format++;
+        i++;
     }
 
     putchar('\n');
