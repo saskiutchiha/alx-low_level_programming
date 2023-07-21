@@ -2,12 +2,12 @@
 #include <stdarg.h>
 
 void print_arguments(const char * const format, ...) {
-int i;
+int i=0;
 char type;
     va_list args;
     va_start(args, format);
 
-    for (i = 0; format[i] != '\0'; i++) {
+    while ( format[i] != '\0') {
         type = format[i];
        switch (type) {
             case 'i':
@@ -33,6 +33,7 @@ printf("%s ", va_arg(args, char*));
             default:
                 break;
         }  
+        i++;
     }
 
     putchar('\n');
