@@ -14,7 +14,7 @@ for (i = 0; i < a; i++)
 {
 x = va_arg(arg, int);
 printf("%d", x);
-if (separator != NULL)
+if (separator != NULL && i < a-1)
 {
 printf("%s", separator);
 }
