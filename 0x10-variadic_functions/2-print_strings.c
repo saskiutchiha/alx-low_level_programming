@@ -8,7 +8,7 @@ char *str;
     va_list args;
     va_start(args, n);
 
-    for (int i = 0; i < a; i++) 
+    for (i = 0; i < a; i++) 
   {
        str = va_arg(args, char*);
  if (str != NULL)
