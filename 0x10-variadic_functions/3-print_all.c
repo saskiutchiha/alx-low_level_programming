@@ -7,8 +7,8 @@ char type;
     va_list args;
     va_start(args, format);
 
-    while ( format[i] != '\0') {
-        type = format[i];
+    while ( *(format + i) != '\0') {
+        type = *(formst+i);
        switch (type) {
             case 'i':
                 printf("%d ", va_arg(args, int));
