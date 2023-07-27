@@ -3,7 +3,7 @@
 #include <stddef.h>
 size_t print_list(const list_t *h)
 {
-list _t *q;
+const list _t *q;
 
 size_t a=0;
   q=h;
