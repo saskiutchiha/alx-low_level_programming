@@ -7,6 +7,10 @@ const list_t *q;
 
 size_t a=0;
   q=h;
+if (q == NULL)
+{
+  return a;
+}
 while(q != NULL)
 {
 if (q->str == NULL)
