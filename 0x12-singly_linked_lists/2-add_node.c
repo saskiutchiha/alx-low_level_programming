@@ -13,7 +13,6 @@ if (q == NULL)
 }
 q->len = a;
 q->str = strdup(str);
-q->next = head;
 q->next = *head;
 *head = q;
 
