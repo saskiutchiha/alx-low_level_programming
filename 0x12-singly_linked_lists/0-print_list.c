@@ -4,6 +4,7 @@
 size_t print_list(const list_t *h)
 {
 list _t *q;
+q=h;
 size_t ;
 int a=0;
 while(q != NULL)
