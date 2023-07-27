@@ -17,7 +17,7 @@ a++;
 }
 else
 {
-printf("[%d] (%s)\n",q->len,q->str);
+printf("[%u] (%s)\n",q->len,q->str);
 a++;
 }
 q = q->next;
