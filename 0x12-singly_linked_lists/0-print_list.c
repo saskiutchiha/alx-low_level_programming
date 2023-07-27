@@ -5,12 +5,11 @@ size_t print_list(const list_t *h)
 {
 list _t *q;
 
-size_t n;
-int a=0;
+size_t a=0;
   q=h;
 while(q != NULL)
 {
-if (str == NULL)
+if (q->str == NULL)
 {
 printf("[0] (nil)\n");
 a++;
@@ -22,6 +21,5 @@ a++;
 }
 q = q->next;
 }
-n =a;
-return n;
+return a;
 }
