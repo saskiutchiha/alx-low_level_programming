@@ -6,7 +6,7 @@ void free_list(list_t *head)
 if (head != NULL)
 {
   q=head;
-  head = head->next
+  head = head->next;
 free(q->str);
 free(q);
 free_list(head);
