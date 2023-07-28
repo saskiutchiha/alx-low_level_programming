@@ -1,7 +1,7 @@
 #include <stddef.h>
 #include "lists.h"
 /**
- * list_len - Entry point
+ * n - Entry point
  *@h : variable to pass to list_len function
  * Return: size_t (Success)
  */
