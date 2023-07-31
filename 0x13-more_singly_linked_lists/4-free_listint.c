@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "lists.h"
+#include <stddef.h>
 /**
  * free_listin - Entry point
  *@h : variable to pass to free_listin function
