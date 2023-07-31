@@ -2,8 +2,8 @@
 #include "lists.h"
 #include <stddef.h>
 /**
- * free_listin - Entry point
- *@h : variable to pass to free_listin function
+ * free_listint - Entry point
+ *@head : variable to pass to free_listint function
  * Return: void (Success)
  */
 void free_listint(listint_t *head)
