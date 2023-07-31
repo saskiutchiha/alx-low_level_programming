@@ -7,5 +7,12 @@
  */
 void free_listint(listint_t *head)
 {
-free(head);
+listint_t *q;
+if (head != NULL)
+{
+q=h;
+head = head->next;
+free(q);
+free_listint(head);
+}
 }  
