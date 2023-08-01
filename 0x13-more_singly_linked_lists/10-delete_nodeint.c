@@ -29,6 +29,6 @@ if (index == 1)
 p = q->next;
 q->next = p->next;
 free(p);
-return 1;
 }
+return 1;
 }
