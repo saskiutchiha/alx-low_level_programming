@@ -17,7 +17,7 @@ return (a);
 }
 while (q != NULL)
 {
-printf("%d\n",q->n);
+printf("%d\n", q->n);
 a++;
 q = q->next;
 }
