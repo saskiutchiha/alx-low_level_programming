@@ -13,11 +13,11 @@ return 0;
 }
 for (;i>=0;i--)
 {
-if (b[i] != '0' || b[i] != '1')
+if (q[i] != '0' || q[i] != '1')
 {
 return 0;
 }
-sum = sum + (b[i]+ 48) * (2 ** (a-i));
+sum = sum + (q[i]+ 48) * (2 ** (a-i));
 }
 return sum;
 }
