@@ -8,5 +8,5 @@ return -1;
 }
 h = h << index;
 *n = h | *n;
-return 1
+return 1;
 }
