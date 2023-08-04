@@ -7,6 +7,6 @@ if (index > 64)
 return -1;
 }
 h = h << index;
-*n = ~h | *n;
+*n = ~h & *n;
 return 1;
 }
