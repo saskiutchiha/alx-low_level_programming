@@ -6,8 +6,8 @@ int get_endianness() {
     unsigned char *bytePtr = (unsigned char *)&num;
     
     if (*bytePtr == 1) {
-        return 1; // Little endian
+        return 1; 
     } else {
-        return 0; // Big endian
+        return 0; 
     }
 }
