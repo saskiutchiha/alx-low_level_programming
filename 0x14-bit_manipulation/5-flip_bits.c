@@ -10,6 +10,7 @@ if (b & h)
 {
 a++;
 }
+h = h>>1;
 }
 return a;
 }
