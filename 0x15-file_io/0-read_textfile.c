@@ -3,22 +3,24 @@
 #include <unistd.h>
 #include <stddef.h>
 ssize_t read_textfile(const char *filename, size_t letters) {
+    FILE *file = fopen(filename, "r");
+    char *buffer;
+    ssize_t bytesWritten;
+        ssize_t bytesRead;
     if (filename == NULL) {
         return 0; 
     }
-
-    FILE *file = fopen(filename, "r");
     if (file == NULL) {
         return 0; 
     }
 
-    char *buffer = (char *)malloc(letters + 1);
+    buffer = malloc(letters + 1);
     if (buffer == NULL) {
         fclose(file);
         return 0; 
     }
 
-    ssize_t bytesRead = fread(buffer, 1, letters, file); 
+    bytesRead = fread(buffer, 1, letters, file); 
     fclose(file);
 
     if (bytesRead <= 0) {
@@ -28,7 +30,7 @@ ssize_t read_textfile(const char *filename, size_t letters) {
 
     buffer[bytesRead] = '\0'; 
 
-    ssize_t bytesWritten = write(STDOUT_FILENO, buffer, bytesRead); 
+    bytesWritten = write(STDOUT_FILENO, buffer, bytesRead); 
     free(buffer);
 
     if (bytesWritten != bytesRead) {
