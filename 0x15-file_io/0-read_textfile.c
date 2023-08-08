@@ -32,7 +32,7 @@ ssize_t read_textfile(const char *filename, size_t letters) {
     free(buffer);
 
     if (bytesWritten != bytesRead) {
-        return 0; // Return 0 if write fails or doesn't write expected bytes
+        return 0; 
     }
 
     return bytesWritten; 
