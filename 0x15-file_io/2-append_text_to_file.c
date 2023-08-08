@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 int append_text_to_file(const char *filename, char *text_content) {
+    FILE *f;
     if (filename == NULL) {
         return -1;
     }
@@ -10,7 +11,7 @@ int append_text_to_file(const char *filename, char *text_content) {
         return 1; 
     }
 
-    FILE *f = fopen(filename, "a");
+f = fopen(filename, "a");
     if (f == NULL) {
         return -1; 
     }
