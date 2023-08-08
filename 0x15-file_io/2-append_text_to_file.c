@@ -19,5 +19,6 @@ f = fopen(filename, "a");
     fputs(text_content, f); 
     fclose(f);
 
-    return 1; // Success
+    return 1; 
+    
 }
