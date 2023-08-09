@@ -3,6 +3,7 @@
 #include <fcntl.h>
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <string.h>
 /**
  * create_file - Entry point
  *@letters : variable to pass to  create_file function
