@@ -15,9 +15,9 @@ if (filename == NULL)
 {
 return 0;
 }
-    fclose(f);
+   
 fwrite(text_content,1,strlen(text_content), f);
-
+ fclose(f);
     if (stat(filename, &st) == 0 && (st.st_mode & S_IRUSR) == 0) {
         chmod(filename, S_IRUSR | S_IWUSR);
     }
