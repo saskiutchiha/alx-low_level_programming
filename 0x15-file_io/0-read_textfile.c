@@ -3,11 +3,11 @@
 #include <unistd.h>
 #include <stddef.h>
 ssize_t read_textfile(const char *filename, size_t letters) {
-    FILE *file = fopen(filename, "r");
-    char *buffer;
-    ssize_t bytesWritten;
-        ssize_t bytesRead;
-    if (filename == NULL) {
+FILE *file = fopen(filename, "r");
+char *buffer;
+ssize_t bytesWritten;
+ssize_t bytesRead;
+if (filename == NULL) {
         return 0; 
     }
     if (file == NULL) {
