@@ -3,7 +3,12 @@
 #include <fcntl.h>
 #include <sys/types.h>
 #include <sys/stat.h>
-
+/**
+ * create_file - Entry point
+ *@letters : variable to pass to  create_file function
+ *@filename : variable to pass to  create_file function
+ * Return: int (Success)
+ */
 int create_file(const char *filename, char *text_content) {
     int fd ;
    ssize_t text_length ;
