@@ -11,7 +11,7 @@ elem->n = n;
 elem->next = *head;
 elem->prev = NULL;
 if (*head != NULL){
-*head->prev = elem;
+(*head)->prev = elem;
 }
 *head = elem;
 return elem;
