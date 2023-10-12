@@ -13,6 +13,7 @@ elem->n = n;
 elem->next = NULL;
 if (q == NULL){
 elem->prev = NULL;
+*head = elem;
 return elem;
 }
 while(q->next != NULL){
