@@ -6,7 +6,7 @@ size_t a=0;
 while(h != NULL){
 printf("%d\nh->n);
 a++;
-h = h->next
+h = h->next;
 }
 return (a);
 }
