@@ -20,5 +20,5 @@ q = q->next;
 }
 q->next = elem;
 elem->prev = q;
-return elem
+return elem;
 }
