@@ -19,9 +19,9 @@ void hash_table_print(const hash_table_t *ht)
 			 
 			  if (check == true)
 			  {
-				  printf(",");
+				  printf(", ");
 			  }
-                         printf("%s: %s",(*p)->key,(*p)->value);
+                         printf("'%s': '%s'",(*p)->key,(*p)->value);
 			 check = true ;
 			 p = &((*p)->next);
 
