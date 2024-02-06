@@ -9,13 +9,13 @@ int binary_search(int *array, size_t size, int value){
 	
 	while(p != array){
 	
-	  printf("Searching in array: ");
+	  printf("Searching in array:");
 	  for(i = array - q;i <= p-q ; i++){
 		  if (i == p-q){
-			  printf("%d",*(q+i));
+			  printf(" %d",*(q+i));
 			  break;
 		  }
-		  printf("%d,",*(q+i));
+		  printf(" %d,",*(q+i));
 	 }
 	 printf("\n");
 	 
