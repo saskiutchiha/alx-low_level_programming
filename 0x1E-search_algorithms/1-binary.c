@@ -1,5 +1,12 @@
 #include <stdio.h>
 #include <stddef.h>
+/**
+ * print_array - prints an array of integers
+ * @array: pointer to the start of the array
+ * @size: size of the array (number of elements)
+ *
+ * Return: nothing
+ */
 int binary_search(int *array, size_t size, int value){
 	int *p = array + size-1,mil,index,*q = array,i;
 	if (array == NULL){
