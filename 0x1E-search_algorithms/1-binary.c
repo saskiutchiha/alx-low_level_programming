@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stddef.h>
 /**
- * print_array - prints an array of integers
- * @array: pointer to the start of the array
+ * linear_search - find value in an array using linear search method
+ * @array: pointer to first element in array to be searched
  * @size: size of the array (number of elements)
  * @value: value to searched for
  *
