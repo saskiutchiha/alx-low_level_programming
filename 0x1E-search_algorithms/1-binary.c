@@ -11,6 +11,10 @@ int binary_search(int *array, size_t size, int value){
 	
 	  printf("Searching in array: ");
 	  for(i = array - q;i <= p-q ; i++){
+		  if (i == p-q){
+			  printf("%d",*(q+i));
+			  break;
+		  }
 		  printf("%d,",*(q+i));
 	 }
 	 printf("\n");
@@ -30,7 +34,8 @@ int binary_search(int *array, size_t size, int value){
 		 
 	 }
 	}
-         printf("%d,",*(array));
+	 printf("Searching in array: ");
+         printf("%d\n",*(array));
 	 if(*p == value){
             index = array + mil - q;
 	    return index ;
